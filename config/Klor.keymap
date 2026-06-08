@@ -139,17 +139,20 @@
 
         sym1 {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <11 12>;
+            key-positions = <23 24>;
+            layers = <0>;
         };
 
         sym2 {
             bindings = <&kp AT_SIGN>;
-            key-positions = <12 13>;
+            key-positions = <24 25>;
+            layers = <0>;
         };
 
         sym3 {
             bindings = <&kp HASH>;
-            key-positions = <13 14>;
+            key-positions = <26 25>;
+            layers = <0>;
         };
 
         sym4 {
@@ -159,22 +162,37 @@
 
         sym5 {
             bindings = <&kp PERCENT>;
-            key-positions = <17 18>;
+            key-positions = <29 30>;
+            layers = <0>;
         };
 
         sym6 {
             bindings = <&kp CARET>;
-            key-positions = <18 19>;
+            key-positions = <30 31>;
+            layers = <0>;
         };
 
         sym7 {
             bindings = <&kp AMPERSAND>;
-            key-positions = <18 17>;
+            key-positions = <31 32>;
+            layers = <0>;
         };
 
         sym8 {
             bindings = <&kp STAR>;
             key-positions = <32 20>;
+        };
+
+        Ngoac_tron_trai {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <14 13>;
+            layers = <0>;
+        };
+
+        Ngoac_tron_phai {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <17 18>;
+            layers = <0>;
         };
     };
 
