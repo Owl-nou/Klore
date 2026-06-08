@@ -41,7 +41,7 @@ layers:
   - Lower Layer
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:alpha-w-box$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
