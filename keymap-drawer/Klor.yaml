@@ -23,7 +23,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
   - Z
   - X
   - C
