@@ -372,19 +372,31 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [11, 12]
+- p: [23, 24]
   k: '!'
-- p: [12, 13]
+  l: [Default Layer]
+- p: [24, 25]
   k: '@'
-- p: [13, 14]
+  l: [Default Layer]
+- p: [26, 25]
   k: '#'
+  l: [Default Layer]
 - p: [11, 23]
   k: $
-- p: [17, 18]
+- p: [29, 30]
   k: '%'
-- p: [18, 19]
+  l: [Default Layer]
+- p: [30, 31]
   k: ^
-- p: [18, 17]
+  l: [Default Layer]
+- p: [31, 32]
   k: '&'
+  l: [Default Layer]
 - p: [32, 20]
   k: '*'
+- p: [14, 13]
+  k: (
+  l: [Default Layer]
+- p: [17, 18]
+  k: )
+  l: [Default Layer]
