@@ -41,7 +41,7 @@ layers:
   - Lower Layer
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:alpha-w-box$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
@@ -371,3 +371,20 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [11, 12]
+  k: '!'
+- p: [12, 13]
+  k: '@'
+- p: [13, 14]
+  k: '#'
+- p: [11, 23]
+  k: $
+- p: [17, 18]
+  k: '%'
+- p: [18, 19]
+  k: ^
+- p: [18, 17]
+  k: '&'
+- p: [32, 20]
+  k: '*'
