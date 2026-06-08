@@ -383,6 +383,7 @@ combos:
   l: [Default Layer]
 - p: [11, 23]
   k: $
+  l: [Default Layer]
 - p: [29, 30]
   k: '%'
   l: [Default Layer]
@@ -394,9 +395,22 @@ combos:
   l: [Default Layer]
 - p: [32, 20]
   k: '*'
+  l: [Default Layer]
 - p: [14, 13]
   k: (
   l: [Default Layer]
 - p: [17, 18]
   k: )
+  l: [Default Layer]
+- p: [13, 12]
+  k: {t: '[', s: '{'}
+  l: [Default Layer]
+- p: [18, 19]
+  k: {t: ']', s: '}'}
+  l: [Default Layer]
+- p: [11, 12]
+  k: '{'
+  l: [Default Layer]
+- p: [19, 20]
+  k: '}'
   l: [Default Layer]
