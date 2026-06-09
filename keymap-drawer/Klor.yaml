@@ -414,3 +414,51 @@ combos:
 - p: [19, 20]
   k: '}'
   l: [Default Layer]
+- p: [12, 24]
+  k: {t: '''', s: '"'}
+  l: [Default Layer]
+- p: [19, 31]
+  k: '"'
+  l: [Default Layer]
+- p: [13, 25]
+  k: {t: '-', s: _}
+  l: [Default Layer]
+- p: [18, 30]
+  k: _
+  l: [Default Layer]
+- p: [14, 26]
+  k: {t: ;, s: ':'}
+  l: [Default Layer]
+- p: [17, 29]
+  k: ':'
+  l: [Default Layer]
+- p: [24, 11]
+  k: {t: '`', s: '~'}
+  l: [Default Layer]
+- p: [31, 20]
+  k: '~'
+  l: [Default Layer]
+- p: [25, 12]
+  k: {t: \, s: '|'}
+  l: [Default Layer]
+- p: [19, 30]
+  k: '|'
+  l: [Default Layer]
+- p: [25, 14]
+  k: {t: '=', s: +}
+  l: [Default Layer]
+- p: [30, 17]
+  k: +
+  l: [Default Layer]
+- p: [0, 11]
+  k: HOME
+  l: [Default Layer]
+- p: [12, 1]
+  k: PgDn
+  l: [Default Layer]
+- p: [13, 2]
+  k: PgUp
+  l: [Default Layer]
+- p: [14, 3]
+  k: END
+  l: [Default Layer]
