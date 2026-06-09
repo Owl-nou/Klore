@@ -356,19 +356,19 @@
         Khoa_layer_NUMBER {
             bindings = <&to 1>;
             key-positions = <37 20>;
-            layers = <0 2>;
+            layers = <0 2 1>;
         };
 
         Khoa_layer_MOUSE {
             bindings = <&to 2>;
             key-positions = <20 38>;
-            layers = <0 2>;
+            layers = <0 2 1>;
         };
 
         Back_to_DEFAULT {
             bindings = <&to 0>;
             key-positions = <37 38>;
-            layers = <0 2>;
+            layers = <0 2 1>;
         };
     };
 
@@ -376,7 +376,7 @@
         compatible = "zmk,keymap";
 
         DEFAULT {
-            display-name = "Default Layer";
+            display-name = "DEFAULT";
             bindings = <
                                  &kp Q         &kp W    &kp E            &kp R                 &kp T  &kp Y  &kp U          &kp I                          &kp O    &kp P
 &mt ESC TAB                      &kp A         &kp S    &kp D            &kp F                 &kp G  &kp H  &kp J          &kp K                          &kp L    &kp SEMI  &kp LEFT_GUI
@@ -389,7 +389,7 @@
         };
 
         NUMBER {
-            display-name = "Lower Layer";
+            display-name = "NUMBER";
             bindings = <
                                  &kp NUMBER_1    &kp NUMBER_2       &kp NUMBER_3            &kp NUMBER_4          &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0
 &mt ESCAPE TAB                   &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW            &kp RIGHT_ARROW       &kp K_UNDO    &kp PLUS      &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_6  &kp ASTERISK  &kp LEFT_GUI
