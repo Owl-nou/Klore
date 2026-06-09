@@ -471,3 +471,9 @@ combos:
 - p: [37, 38]
   k: {t: DEFAULT, h: toggle}
   l: [DEFAULT, MOUSE, NUMBER]
+- p: [19, 18, 17]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [DEFAULT]
+- p: [12, 13, 14]
+  k: '&CSA'
+  l: [DEFAULT]
