@@ -116,7 +116,7 @@ layers:
   - '&Dong_cua_so'
   - AC CLOSE
   - AC EXIT
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SCREENSAVER
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -127,7 +127,7 @@ layers:
   - $$mdi:volume-low$$
   - MUTE
   - $$mdi:volume-high$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SLEEP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
@@ -139,7 +139,7 @@ layers:
   - PREVIOUS
   - PLAY PAUSE
   - NEXT
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SLEEP MODE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
@@ -427,10 +427,10 @@ combos:
   k: _
   l: [Default Layer]
 - p: [14, 26]
-  k: {t: ;, s: ':'}
+  k: '&Mui_ten_thuan'
   l: [Default Layer]
 - p: [17, 29]
-  k: ':'
+  k: '&Mui_ten_nguoc'
   l: [Default Layer]
 - p: [24, 11]
   k: {t: '`', s: '~'}

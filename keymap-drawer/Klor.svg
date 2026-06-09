@@ -649,12 +649,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-18">
 <rect rx="6" ry="6" x="251" y="126" width="28" height="26" class="combo"/>
-<text x="265" y="139" class="combo tap">;</text>
-<text x="265" y="128" class="combo shifted">:</text>
+<text x="265" y="139" class="combo tap"><tspan style="font-size: 60%">&amp;Mui_ten_…</tspan></text>
 </g>
 <g class="combo combopos-19">
 <rect rx="6" ry="6" x="684" y="126" width="28" height="26" class="combo"/>
-<text x="698" y="139" class="combo tap">:</text>
+<text x="698" y="139" class="combo tap"><tspan style="font-size: 60%">&amp;Mui_ten_…</tspan></text>
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="107" y="151" width="28" height="26" class="combo"/>
@@ -1034,10 +1033,10 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">AC</tspan><tspan x="0" dy="1.2em">EXIT</tspan>
 </text>
 </g>
-<g transform="translate(882, 101) rotate(10.0)" class="key trans keypos-9">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(882, 101) rotate(10.0)" class="key keypos-9">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">SCREENSAV…</tspan></text>
 </g>
 <g transform="translate(32, 152) rotate(-10.0)" class="key trans keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1093,10 +1092,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:volume-high" xlink:href="#mdi:volume-high" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:volume-high"/>
 </g>
-<g transform="translate(872, 157) rotate(10.0)" class="key trans keypos-20">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(872, 157) rotate(10.0)" class="key keypos-20">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">SLEEP</text>
 </g>
 <g transform="translate(930, 152) rotate(10.0)" class="key trans keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1159,10 +1158,12 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">NEXT</text>
 </g>
-<g transform="translate(863, 212) rotate(10.0)" class="key trans keypos-32">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(863, 212) rotate(10.0)" class="key keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em">SLEEP</tspan><tspan x="0" dy="1.2em">MODE</tspan>
+</text>
 </g>
 <g transform="translate(921, 207) rotate(10.0)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
