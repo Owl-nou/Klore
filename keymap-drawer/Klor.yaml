@@ -65,8 +65,8 @@ layers:
   - '9'
   - '0'
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
-  - ''
-  - ''
+  - COPY
+  - PASTE
   - ''
   - ''
   - ''
@@ -77,8 +77,8 @@ layers:
   - '*'
   - {t: '$$mdi:apple-keyboard-command$$', h: toggle}
   - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
-  - ''
-  - ''
+  - CUT
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - ''
   - ''
   - ''
@@ -96,16 +96,16 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - '0'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - $$mdi:pan-left$$
+  - $$mdi:pan-up$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
+  - $$mdi:pan-right$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   Raise Layer:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
