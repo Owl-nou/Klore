@@ -352,6 +352,24 @@
             key-positions = <14 3>;
             layers = <0>;
         };
+
+        Khoa_layer_NUMBER {
+            bindings = <&to 1>;
+            key-positions = <37 20>;
+            layers = <0 2>;
+        };
+
+        Khoa_layer_MOUSE {
+            bindings = <&to 2>;
+            key-positions = <20 38>;
+            layers = <0 2>;
+        };
+
+        Back_to_DEFAULT {
+            bindings = <&to 0>;
+            key-positions = <37 38>;
+            layers = <0 2>;
+        };
     };
 
     keymap {
