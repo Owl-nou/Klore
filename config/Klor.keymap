@@ -132,6 +132,13 @@
             bindings = <&kp LEFT_GUI &kp PRINTSCREEN>;
             label = "FULL_PRT_SCR";
         };
+
+        Triple_left_click: Triple_left_click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK &mkp LCLK &mkp LCLK>;
+            label = "TRIPLE_LEFT_CLICK";
+        };
     };
 
     combos {
@@ -354,7 +361,7 @@
         &trans          &trans          &trans        &trans           &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &trans          &trans        &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans          &trans        &trans           &trans  &trans  &trans  &trans  &trans
+                        &trans          &trans        &mkp LCLK        &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &trans          &trans        &trans                           &trans  &trans  &trans  &trans  &trans
             >;
 
