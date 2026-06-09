@@ -349,6 +349,18 @@
                 <&inc_dec_kp RIGHT LEFT>;
         };
 
+        MOUSE {
+            bindings = <
+        &trans          &trans          &trans        &trans           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans          &trans        &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans          &trans        &trans           &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans          &trans        &trans                           &trans  &trans  &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
+        };
+
         raise_layer {
             display-name = "Raise Layer";
             bindings = <
@@ -363,18 +375,6 @@
         };
 
         FN {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
-        };
-
-        mouse {
             bindings = <
         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
