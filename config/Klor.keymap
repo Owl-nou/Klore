@@ -45,6 +45,7 @@
 &sk {
     quick-release;
     lazy;
+    release-after-ms = <2000>;
 };
 
 / {
@@ -167,6 +168,13 @@
             #binding-cells = <0>;
             bindings = <&kp LESS_THAN &kp MINUS &kp MINUS &kp SPACE>;
             label = "MUI_TEN_NGUOC";
+        };
+
+        CSA: CSA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LCTRL &sk LEFT_SHIFT &sk LEFT_ALT>;
+            label = "CSA";
         };
     };
 
@@ -369,6 +377,18 @@
             bindings = <&to 0>;
             key-positions = <37 38>;
             layers = <0 2 1>;
+        };
+
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <19 18 17>;
+            layers = <0>;
+        };
+
+        CSA {
+            bindings = <&CSA>;
+            key-positions = <12 13 14>;
+            layers = <0>;
         };
     };
 
