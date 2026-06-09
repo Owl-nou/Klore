@@ -698,6 +698,34 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="251" y="70" width="28" height="26" class="combo"/>
 <text x="265" y="83" class="combo tap">END</text>
 </g>
+<g class="combo combopos-30">
+<path d="M649,230 l-205,67" class="combo"/>
+<path d="M649,230 l205,-67" class="combo"/>
+<rect rx="6" ry="6" x="635" y="217" width="28" height="26" class="combo"/>
+<a href="#Lower-Layer">
+<text x="649" y="230" class="combo tap layer-activator">
+<tspan x="649" dy="-0.6em">Lower</tspan><tspan x="649" dy="1.2em">Layer</tspan>
+</text>
+</a><text x="649" y="241" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-31">
+<path d="M704,230 l151,-66" class="combo"/>
+<path d="M704,230 l-151,66" class="combo"/>
+<rect rx="6" ry="6" x="690" y="217" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="704" y="230" class="combo tap layer-activator">MOUSE</text>
+</a><text x="704" y="241" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-32">
+<path d="M481,303 l-36,0" class="combo"/>
+<path d="M481,303 l36,0" class="combo"/>
+<rect rx="6" ry="6" x="467" y="290" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="481" y="303" class="combo tap layer-activator">
+<tspan x="481" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="481" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="481" y="314" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 453)" class="layer-Lower Layer">
@@ -1263,6 +1291,34 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g class="combo combopos-0">
+<path d="M649,230 l-205,67" class="combo"/>
+<path d="M649,230 l205,-67" class="combo"/>
+<rect rx="6" ry="6" x="635" y="217" width="28" height="26" class="combo"/>
+<a href="#Lower-Layer">
+<text x="649" y="230" class="combo tap layer-activator">
+<tspan x="649" dy="-0.6em">Lower</tspan><tspan x="649" dy="1.2em">Layer</tspan>
+</text>
+</a><text x="649" y="241" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M704,230 l151,-66" class="combo"/>
+<path d="M704,230 l-151,66" class="combo"/>
+<rect rx="6" ry="6" x="690" y="217" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="704" y="230" class="combo tap layer-activator">MOUSE</text>
+</a><text x="704" y="241" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-2">
+<path d="M481,303 l-36,0" class="combo"/>
+<path d="M481,303 l36,0" class="combo"/>
+<rect rx="6" ry="6" x="467" y="290" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="481" y="303" class="combo tap layer-activator">
+<tspan x="481" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="481" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="481" y="314" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

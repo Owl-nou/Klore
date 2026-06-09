@@ -462,3 +462,12 @@ combos:
 - p: [14, 3]
   k: END
   l: [Default Layer]
+- p: [37, 20]
+  k: {t: Lower Layer, h: toggle}
+  l: [Default Layer, MOUSE]
+- p: [20, 38]
+  k: {t: MOUSE, h: toggle}
+  l: [Default Layer, MOUSE]
+- p: [37, 38]
+  k: {t: Default Layer, h: toggle}
+  l: [Default Layer, MOUSE]
