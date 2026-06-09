@@ -65,23 +65,23 @@ layers:
   - '9'
   - '0'
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
-  - COPY
-  - PASTE
-  - ''
-  - ''
-  - ''
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - UNDO
   - +
   - '4'
   - '5'
   - '6'
   - '*'
-  - {t: '$$mdi:apple-keyboard-command$$', h: toggle}
+  - $$mdi:apple-keyboard-command$$
   - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
-  - CUT
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - ''
-  - ''
-  - ''
+  - COPY
+  - Ctl+Sft+CUT
+  - PASTE
+  - Ctl+Sft+V
+  - REDO
   - {t: '-', s: _}
   - '1'
   - '2'
