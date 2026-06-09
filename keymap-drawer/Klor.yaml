@@ -89,11 +89,11 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - ''
-  - ''
-  - ''
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {type: held}
   - ''
-  - ''
+  - {t: '$$mdi:backspace$$', type: backspace}
   - '0'
   - ''
   - ''
