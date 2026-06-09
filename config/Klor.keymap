@@ -139,6 +139,14 @@
             bindings = <&mkp LCLK &mkp LCLK &mkp LCLK>;
             label = "TRIPLE_LEFT_CLICK";
         };
+
+        Press_left_click: Press_left_click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK>, <&macro_press>;
+
+            label = "PRESS_LEFT_CLICK";
+        };
     };
 
     combos {
