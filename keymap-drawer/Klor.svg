@@ -295,8 +295,8 @@ rect.held, rect.combo.held {
   visibility: hidden;
 }
 </style>
-<g transform="translate(40, 0)" class="layer-Default Layer">
-<text x="0" y="28" class="label" id="Default-Layer">Default Layer:</text>
+<g transform="translate(40, 0)" class="layer-DEFAULT">
+<text x="0" y="28" class="label" id="DEFAULT">DEFAULT:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(80, 101) rotate(-10.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -494,10 +494,8 @@ rect.held, rect.combo.held {
 <g transform="translate(426, 303) rotate(-45.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Lower-Layer">
-<text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-0.6em">Lower</tspan><tspan x="0" dy="1.2em">Layer</tspan>
-</text>
+<a href="#NUMBER">
+<text x="0" y="-4" class="key tap layer-activator">NUMBER</text>
 </a></g>
 <g transform="translate(536, 303) rotate(45.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -702,10 +700,8 @@ rect.held, rect.combo.held {
 <path d="M649,230 l-205,67" class="combo"/>
 <path d="M649,230 l205,-67" class="combo"/>
 <rect rx="6" ry="6" x="635" y="217" width="28" height="26" class="combo"/>
-<a href="#Lower-Layer">
-<text x="649" y="230" class="combo tap layer-activator">
-<tspan x="649" dy="-0.6em">Lower</tspan><tspan x="649" dy="1.2em">Layer</tspan>
-</text>
+<a href="#NUMBER">
+<text x="649" y="230" class="combo tap layer-activator">NUMBER</text>
 </a><text x="649" y="241" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-31">
@@ -720,16 +716,14 @@ rect.held, rect.combo.held {
 <path d="M481,303 l-36,0" class="combo"/>
 <path d="M481,303 l36,0" class="combo"/>
 <rect rx="6" ry="6" x="467" y="290" width="28" height="26" class="combo"/>
-<a href="#Default-Layer">
-<text x="481" y="303" class="combo tap layer-activator">
-<tspan x="481" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="481" dy="1.2em" style="font-size: 86%">Layer</tspan>
-</text>
+<a href="#DEFAULT">
+<text x="481" y="303" class="combo tap layer-activator"><tspan style="font-size: 86%">DEFAULT</tspan></text>
 </a><text x="481" y="314" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(40, 453)" class="layer-Lower Layer">
-<text x="0" y="28" class="label" id="Lower-Layer">Lower Layer:</text>
+<g transform="translate(40, 453)" class="layer-NUMBER">
+<text x="0" y="28" class="label" id="NUMBER">NUMBER:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(80, 101) rotate(-10.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -932,10 +926,8 @@ rect.held, rect.combo.held {
 <g transform="translate(426, 303) rotate(-45.0)" class="key held keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
-<a href="#Lower-Layer">
-<text x="0" y="-4" class="key held tap layer-activator">
-<tspan x="0" dy="-0.6em">Lower</tspan><tspan x="0" dy="1.2em">Layer</tspan>
-</text>
+<a href="#NUMBER">
+<text x="0" y="-4" class="key held tap layer-activator">NUMBER</text>
 </a></g>
 <g transform="translate(536, 303) rotate(45.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1006,6 +998,30 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
+</g>
+<g class="combo combopos-0">
+<path d="M649,230 l-205,67" class="combo"/>
+<path d="M649,230 l205,-67" class="combo"/>
+<rect rx="6" ry="6" x="635" y="217" width="28" height="26" class="combo"/>
+<a href="#NUMBER">
+<text x="649" y="230" class="combo tap layer-activator">NUMBER</text>
+</a><text x="649" y="241" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M704,230 l151,-66" class="combo"/>
+<path d="M704,230 l-151,66" class="combo"/>
+<rect rx="6" ry="6" x="690" y="217" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="704" y="230" class="combo tap layer-activator">MOUSE</text>
+</a><text x="704" y="241" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-2">
+<path d="M481,303 l-36,0" class="combo"/>
+<path d="M481,303 l36,0" class="combo"/>
+<rect rx="6" ry="6" x="467" y="290" width="28" height="26" class="combo"/>
+<a href="#DEFAULT">
+<text x="481" y="303" class="combo tap layer-activator"><tspan style="font-size: 86%">DEFAULT</tspan></text>
+</a><text x="481" y="314" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1216,10 +1232,8 @@ rect.held, rect.combo.held {
 <g transform="translate(426, 303) rotate(-45.0)" class="key held alternate keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
-<a href="#Lower-Layer">
-<text x="0" y="-4" class="key held alternate tap layer-activator">
-<tspan x="0" dy="-0.6em">Lower</tspan><tspan x="0" dy="1.2em">Layer</tspan>
-</text>
+<a href="#NUMBER">
+<text x="0" y="-4" class="key held alternate tap layer-activator">NUMBER</text>
 </a></g>
 <g transform="translate(536, 303) rotate(45.0)" class="key held keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
@@ -1296,10 +1310,8 @@ rect.held, rect.combo.held {
 <path d="M649,230 l-205,67" class="combo"/>
 <path d="M649,230 l205,-67" class="combo"/>
 <rect rx="6" ry="6" x="635" y="217" width="28" height="26" class="combo"/>
-<a href="#Lower-Layer">
-<text x="649" y="230" class="combo tap layer-activator">
-<tspan x="649" dy="-0.6em">Lower</tspan><tspan x="649" dy="1.2em">Layer</tspan>
-</text>
+<a href="#NUMBER">
+<text x="649" y="230" class="combo tap layer-activator">NUMBER</text>
 </a><text x="649" y="241" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
@@ -1314,10 +1326,8 @@ rect.held, rect.combo.held {
 <path d="M481,303 l-36,0" class="combo"/>
 <path d="M481,303 l36,0" class="combo"/>
 <rect rx="6" ry="6" x="467" y="290" width="28" height="26" class="combo"/>
-<a href="#Default-Layer">
-<text x="481" y="303" class="combo tap layer-activator">
-<tspan x="481" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="481" dy="1.2em" style="font-size: 86%">Layer</tspan>
-</text>
+<a href="#DEFAULT">
+<text x="481" y="303" class="combo tap layer-activator"><tspan style="font-size: 86%">DEFAULT</tspan></text>
 </a><text x="481" y="314" class="combo hold">toggle</text>
 </g>
 </g>

@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: Klor}
 layers:
-  Default Layer:
+  DEFAULT:
   - Q
   - W
   - E
@@ -38,7 +38,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - Lower Layer
+  - NUMBER
   - MOUSE
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:alpha-w-box$$'}
@@ -53,7 +53,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  Lower Layer:
+  NUMBER:
   - '1'
   - '2'
   - '3'
@@ -91,7 +91,7 @@ layers:
   - ''
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Lower Layer, type: held}
+  - {t: NUMBER, type: held}
   - MOUSE
   - {t: '$$mdi:backspace$$', type: backspace}
   - '0'
@@ -144,7 +144,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: Lower Layer, type: held alternate}
+  - {t: NUMBER, type: held alternate}
   - {t: MOUSE, type: held}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
@@ -374,100 +374,100 @@ layers:
 combos:
 - p: [23, 24]
   k: '!'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [24, 25]
   k: '@'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [26, 25]
   k: '#'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [11, 23]
   k: $
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [29, 30]
   k: '%'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [30, 31]
   k: ^
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [31, 32]
   k: '&'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [32, 20]
   k: '*'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [14, 13]
   k: (
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [17, 18]
   k: )
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [13, 12]
   k: {t: '[', s: '{'}
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [18, 19]
   k: {t: ']', s: '}'}
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [11, 12]
   k: '{'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [19, 20]
   k: '}'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [12, 24]
   k: {t: '''', s: '"'}
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [19, 31]
   k: '"'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [13, 25]
   k: {t: '-', s: _}
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [18, 30]
   k: _
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [14, 26]
   k: '&Mui_ten_thuan'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [17, 29]
   k: '&Mui_ten_nguoc'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [24, 11]
   k: {t: '`', s: '~'}
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [31, 20]
   k: '~'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [25, 12]
   k: {t: \, s: '|'}
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [19, 30]
   k: '|'
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [25, 14]
   k: {t: '=', s: +}
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [30, 17]
   k: +
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [0, 11]
   k: HOME
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [12, 1]
   k: PgDn
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [13, 2]
   k: PgUp
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [14, 3]
   k: END
-  l: [Default Layer]
+  l: [DEFAULT]
 - p: [37, 20]
-  k: {t: Lower Layer, h: toggle}
-  l: [Default Layer, MOUSE]
+  k: {t: NUMBER, h: toggle}
+  l: [DEFAULT, MOUSE, NUMBER]
 - p: [20, 38]
   k: {t: MOUSE, h: toggle}
-  l: [Default Layer, MOUSE]
+  l: [DEFAULT, MOUSE, NUMBER]
 - p: [37, 38]
-  k: {t: Default Layer, h: toggle}
-  l: [Default Layer, MOUSE]
+  k: {t: DEFAULT, h: toggle}
+  l: [DEFAULT, MOUSE, NUMBER]
