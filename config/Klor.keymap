@@ -154,6 +154,20 @@
             bindings = <&kp LEFT_ALT &kp SPACE &kp T>;
             label = "DONG_CUA_SO";
         };
+
+        Mui_ten_thuan: Mui_ten_thuan {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp MINUS &kp GREATER_THAN &kp SPACE>;
+            label = "MUI_TEN_THUAN";
+        };
+
+        Mui_ten_nguoc: Mui_ten_nguoc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LESS_THAN &kp MINUS &kp MINUS &kp SPACE>;
+            label = "MUI_TEN_NGUOC";
+        };
     };
 
     combos {
@@ -267,14 +281,14 @@
             layers = <0>;
         };
 
-        Cham_phay {
-            bindings = <&kp SEMICOLON>;
+        Mui_ten_thuan {
+            bindings = <&Mui_ten_thuan>;
             key-positions = <14 26>;
             layers = <0>;
         };
 
-        Hai_cham {
-            bindings = <&kp COLON>;
+        Mui_ten_nguoc {
+            bindings = <&Mui_ten_nguoc>;
             key-positions = <17 29>;
             layers = <0>;
         };
@@ -373,11 +387,11 @@
 
         MOUSE {
             bindings = <
-        &trans          &trans          &trans        &trans              &trans  &trans  &Dong_cua_so       &kp C_AC_CLOSE    &kp C_AC_EXIT    &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT     &trans  &trans  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &trans  &trans
-&trans  &mkp MB4        &mkp MB5        &mkp MCLK     &Triple_left_click  &trans  &trans  &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT       &trans  &trans
+        &trans          &trans          &trans        &trans              &trans  &trans  &Dong_cua_so       &kp C_AC_CLOSE    &kp C_AC_EXIT    &kp K_SCREENSAVER
+&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT     &trans  &trans  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &kp K_SLEEP        &trans
+&trans  &mkp MB4        &mkp MB5        &mkp MCLK     &Triple_left_click  &trans  &trans  &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT       &kp C_SLEEP_MODE   &trans
                         &trans          &mkp RCLK     &mkp LCLK           &mo 1   &mo 2   &mkp LCLK          &mkp RCLK         &trans
-&trans  &trans          &trans          &trans        &trans                              &trans             &trans            &trans           &trans  &trans
+&trans  &trans          &trans          &trans        &trans                              &trans             &trans            &trans           &trans             &trans
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
