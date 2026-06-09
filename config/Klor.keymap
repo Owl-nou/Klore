@@ -337,11 +337,11 @@
         Number {
             display-name = "Lower Layer";
             bindings = <
-                                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&mt ESCAPE TAB                   &kp           &kp           &kp           &kp           &kp           &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kt LEFT_GUI
-&mt LG(PRINTSCREEN) PRINTSCREEN  &kp           &kp           &kp           &kp           &kp           &kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp LEFT_ALT
-                                               &kp           &kp           &kp           &kp           &kp           &kp           &kp NUMBER_0  &kp
-&kp                              &kp           &kp           &kp           &kp                                       &kp           &kp           &kp           &kp           &kp
+                                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3            &kp NUMBER_4          &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&mt ESCAPE TAB                   &kp           &kp           &kp                     &kp                   &kp           &kp PLUS      &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kt LEFT_GUI
+&mt LG(PRINTSCREEN) PRINTSCREEN  &kp           &kp           &kp                     &kp                   &kp           &kp MINUS     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp LEFT_ALT
+                                               &kp           &mt LEFT_CONTROL ENTER  &mt LEFT_SHIFT SPACE  &kp           &kp           &kp BACKSPACE  &kp NUMBER_0  &kp
+&kp                              &kp           &kp           &kp                     &kp                                               &kp            &kp           &kp           &kp           &kp
             >;
 
             sensor-bindings =
