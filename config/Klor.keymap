@@ -108,13 +108,6 @@
             bindings = <&mmv MOVE_RIGHT>, <&mmv MOVE_LEFT>;
         };
 
-        Caps_word: Caps_word {
-            compatible = "zmk,behavior-caps-word";
-            label = "CAPS_WORD";
-            #binding-cells = <0>;
-            continue-list = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z>;
-        };
-
         Capsword_Capslock: Capsword_Capslock {
             compatible = "zmk,behavior-hold-tap";
             label = "CAPSWORD_CAPSLOCK";
