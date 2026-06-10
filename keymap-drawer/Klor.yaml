@@ -420,3 +420,27 @@ combos:
 - p: [17, 16]
   k: '"'
   l: [DEFAULT]
+- p: [0, 1]
+  k: {t: '`', s: '~'}
+  l: [DEFAULT]
+- p: [9, 8]
+  k: '~'
+  l: [DEFAULT]
+- p: [1, 2]
+  k: {t: '-', s: _}
+  l: [DEFAULT]
+- p: [8, 7]
+  k: _
+  l: [DEFAULT]
+- p: [2, 3]
+  k: {t: '=', s: +}
+  l: [DEFAULT]
+- p: [7, 6]
+  k: +
+  l: [DEFAULT]
+- p: [3, 4]
+  k: \
+  l: [DEFAULT]
+- p: [6, 5]
+  k: '|'
+  l: [DEFAULT]
