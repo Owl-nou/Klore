@@ -138,8 +138,8 @@
                                  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3            &kp NUMBER_4          &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8        &kp NUMBER_9  &kp NUMBER_0
 &mt ESCAPE TAB                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW            &kp RIGHT_ARROW       &mo 2         &kp PLUS      &kp NUMBER_4   &kp NUMBER_5        &kp NUMBER_6  &kp ASTERISK  &kp LEFT_GUI
 &mt LG(PRINTSCREEN) PRINTSCREEN  &kp LC(C)       &kp LC(X)       &kp LC(V)               &kp LC(LS(V))         &kp LG(V)     &kp MINUS     &kp NUMBER_1   &kp NUMBER_2        &kp NUMBER_3  &kp SLASH     &kp LEFT_ALT
-                                                 &kp             &mt LEFT_CONTROL ENTER  &mt LEFT_SHIFT SPACE  &kp           &kp           &kp BACKSPACE  &mt EQUAL NUMBER_0  &kp
-&kp                              &kp             &kp             &kp                     &kp                                               &kp            &kp                 &kp           &kp           &kp
+                                                 &none           &mt LEFT_CONTROL ENTER  &mt LEFT_SHIFT SPACE  &none         &none         &kp BACKSPACE  &mt EQUAL NUMBER_0  &none
+&none                            &none           &none           &none                   &none                                             &none          &none               &none         &none         &none
             >;
 
             sensor-bindings =
@@ -151,10 +151,10 @@
             display-name = "NUMBER";
             bindings = <
                                  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3            &kp NUMBER_4          &kp NUMBER_5  &kp NUMBER_6  &kp F7         &kp F8              &kp F9  &kp F12
-&mt ESCAPE TAB                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW            &kp RIGHT_ARROW       &trans        &kp PLUS      &kp F4         &kp F5              &kp F6  &kp F11  &kp LEFT_GUI
+&mt ESCAPE TAB                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW            &kp RIGHT_ARROW       &none         &kp PLUS      &kp F4         &kp F5              &kp F6  &kp F11  &kp LEFT_GUI
 &mt LG(PRINTSCREEN) PRINTSCREEN  &kp LC(C)       &kp LC(X)       &kp LC(V)               &kp LC(LS(V))         &kp LG(V)     &kp MINUS     &kp F1         &kp F2              &kp F3  &kp F10  &kp LEFT_ALT
-                                                 &trans          &mt LEFT_CONTROL ENTER  &mt LEFT_SHIFT SPACE  &mo 1         &mo 3         &kp BACKSPACE  &mt EQUAL NUMBER_0  &trans
-&kp                              &kp             &kp             &kp                     &kp                                               &kp            &kp                 &kp     &kp      &kp
+                                                 &none           &mt LEFT_CONTROL ENTER  &mt LEFT_SHIFT SPACE  &mo 1         &mo 3         &kp BACKSPACE  &mt EQUAL NUMBER_0  &none
+&none                            &none           &none           &none                   &none                                             &none          &none               &none   &none    &none
             >;
 
             sensor-bindings =
@@ -165,11 +165,11 @@
         MOUSE {
             display-name = "MOUSE";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+       &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+              &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
