@@ -41,7 +41,7 @@ layers:
   - NUMBER
   - MOUSE
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
