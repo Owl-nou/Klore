@@ -277,7 +277,9 @@
 &msc SCRL_LEFT                   &msc SCRL_UP  &trans         &msc SCRL_DOWN   &msc SCRL_RIGHT                             &kp LEFT       &kp DOWN      &trans      &kp UP    &kp RIGHT
             >;
 
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
+            sensor-bindings =
+                <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         NUMBER {
