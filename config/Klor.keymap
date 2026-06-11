@@ -132,14 +132,24 @@
         Thu_nho_ung_dung: Thu_nho_ung_dung {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp SPACE &kp T>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT &kp SPACE>,
+                <&macro_tap>,
+                <&kp T>,
+                <&macro_release>;
+
             label = "THU_NHO_UNG_DUNG";
         };
 
         CSA: CSA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&sk LEFT_CONTROL &sk LEFT_SHIFT &sk LEFT_ALT>;
+            bindings =
+                <&macro_press>,
+                <&sk LEFT_CONTROL &sk LEFT_SHIFT &sk LEFT_ALT>,
+                <&macro_release>;
+
             label = "CSA";
         };
 
@@ -160,7 +170,11 @@
         CW: CW {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LEFT_GUI>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_CONTROL &kp LEFT_GUI>,
+                <&macro_release>;
+
             label = "CW";
         };
     };
@@ -436,7 +450,7 @@
                    &kp Q         &kp W       &kp E            &kp R                 &kp T  &kp Y  &kp U           &kp I          &kp O       &kp P
 &mt ESC TAB        &kp A         &kp S       &kp D            &kp F                 &kp G  &kp H  &kp J           &kp K          &kp L       &kp SEMI  &kp LEFT_GUI
 &lt 4 PRINTSCREEN  &kp Z         &kp X       &kp C            &kp V                 &kp B  &kp N  &kp M           &kp COMMA      &kp DOT     &kp FSLH  &kp LEFT_ALT
-                                 &kp LC(N0)  &mt LCTRL SPACE  &mt LEFT_SHIFT ENTER  &mo 1  &mo 3  &lt 4 CAPSLOCK  &kp BACKSPACE  &kp K_MUTE
+                                 &kp LC(N0)  &mt LCTRL SPACE  &mt LEFT_SHIFT ENTER  &mo 1  &mo 3  &lt 4 CAPSLOCK  &kp BACKSPACE  &kp C_MUTE
 &msc SCRL_LEFT     &msc SCRL_UP  &mkp RCLK   &msc SCRL_DOWN   &msc SCRL_RIGHT                     &kp LEFT        &kp DOWN       &mkp LCLK   &kp UP    &kp RIGHT
             >;
 
