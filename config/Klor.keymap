@@ -121,6 +121,20 @@
             bindings = <&mkp LCLK &mkp LCLK &mkp LCLK>;
             label = "TRIPLE_LEFT_CLICK";
         };
+
+        Xen_man_hinh: Xen_man_hinh {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp PRINTSCREEN &to 3>;
+            label = "XEN_MAN_HINH";
+        };
+
+        Thu_nho_ung_dung: Thu_nho_ung_dung {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp SPACE &kp T>;
+            label = "THU_NHO_UNG_DUNG";
+        };
     };
 
     combos {
@@ -322,11 +336,11 @@
         MOUSE {
             display-name = "MOUSE";
             bindings = <
-       &mkp MB4        &mkp MB5        &mkp MCLK     &Triple_left_click  &none   &none  &none  &none  &none  &none
-&none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT     &none   &none  &none  &none  &none  &none  &none
-&none  &mkp MB4        &mkp MB5        &mkp MCLK     &Triple_left_click  &trans  &none  &none  &none  &none  &none  &none
-                       &none           &mkp LCLK     &mkp RCLK           &mo 1   &mo 3  &none  &none  &none
-&none  &none           &none           &none         &none                              &none  &none  &none  &none  &none
+                &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &none   &none  &Thu_nho_ung_dung  &none             &none            &none
+&to 0           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT     &none   &none  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &none         &none
+&none           &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &trans  &none  &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT       &none         &none
+                                &none           &mkp LCLK       &mkp RCLK           &mo 1   &mo 3  &none              &none             &none
+&msc SCRL_LEFT  &msc SCRL_UP    &none           &msc SCRL_DOWN  &msc SCRL_RIGHT                    &kp LEFT_ARROW     &kp DOWN_ARROW    &none            &kp UP_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
