@@ -55,7 +55,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-            tap-ms = <20>;
+            tap-ms = <200>;
         };
 
         TD01: TD01 {
@@ -71,7 +71,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-            tap-ms = <20>;
+            tap-ms = <200>;
         };
 
         Scroll_LR: Scroll_LR {
@@ -80,7 +80,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
 
-            tap-ms = <20>;
+            tap-ms = <200>;
         };
 
         Scroll_RL: Scroll_RL {
@@ -89,7 +89,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_RIGHT>, <&msc SCRL_LEFT>;
 
-            tap-ms = <20>;
+            tap-ms = <200>;
         };
 
         mouse_DU: mouse_DU {
@@ -97,6 +97,8 @@
             label = "MOUSE_DU";
             #sensor-binding-cells = <0>;
             bindings = <&mmv MOVE_DOWN>, <&mmv MOVE_UP>;
+
+            tap-ms = <10>;
         };
 
         mouse_RL: mouse_RL {
@@ -104,6 +106,8 @@
             label = "MOUSE_RL";
             #sensor-binding-cells = <0>;
             bindings = <&mmv MOVE_RIGHT>, <&mmv MOVE_LEFT>;
+
+            tap-ms = <10>;
         };
     };
 
@@ -478,7 +482,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp LC(MINUS) LC(PLUS)>,
+                <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
@@ -493,7 +497,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp LC(MINUS) LC(PLUS)>,
+                <&inc_dec_kp LC(MINUS) LC(EQUAL)>,
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
