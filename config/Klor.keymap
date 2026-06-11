@@ -21,7 +21,7 @@
 
 &msc {
     acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <1500>;       // 300
+    time-to-max-speed-ms = <2000>;       // 300
     delay-ms = <0>;                   // 0
 };
 
@@ -455,7 +455,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp LC(PLUS) LC(MINUS)>,
+                <&inc_dec_kp LC(MINUS) LC(PLUS)>,
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
@@ -470,7 +470,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>,
+                <&inc_dec_kp LC(MINUS) LC(PLUS)>,
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
@@ -485,8 +485,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp DOWN UP_ARROW>,
-                <&inc_dec_kp RIGHT LEFT>;
+                <&inc_dec_kp LC(MINUS) LC(PLUS)>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         MOUSE {
