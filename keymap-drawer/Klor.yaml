@@ -117,7 +117,7 @@ layers:
   - '&CW'
   - Alt+F4
   - SLEEP MODE
-  - {t: DEFAULT, h: toggle}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -128,8 +128,8 @@ layers:
   - MUTE
   - $$mdi:volume-high$$
   - SLEEP
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-command$$
+  - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
   - '&mkp MB4'
   - '&mkp MB5'
   - $$mdi:mouse-scroll-wheel$$
@@ -140,7 +140,7 @@ layers:
   - PLAY PAUSE
   - NEXT
   - SCREENSAVER
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
