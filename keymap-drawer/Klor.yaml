@@ -444,3 +444,15 @@ combos:
 - p: [6, 5]
   k: '|'
   l: [DEFAULT]
+- p: [11, 0]
+  k: HOME
+  l: [DEFAULT]
+- p: [12, 1]
+  k: PgDn
+  l: [DEFAULT]
+- p: [13, 2]
+  k: PgUp
+  l: [DEFAULT]
+- p: [14, 3]
+  k: END
+  l: [DEFAULT]
