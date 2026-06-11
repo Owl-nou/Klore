@@ -352,19 +352,19 @@ combos:
   l: [DEFAULT]
 - p: [17, 6]
   k: {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  l: [DEFAULT]
+  l: [DEFAULT, NUMBER, FUNCTION]
 - p: [18, 7]
   k: {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  l: [DEFAULT]
+  l: [DEFAULT, NUMBER, FUNCTION]
 - p: [19, 8]
   k: {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  l: [DEFAULT]
+  l: [DEFAULT, NUMBER, FUNCTION]
 - p: [20, 9]
   k: {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  l: [DEFAULT]
+  l: [DEFAULT, NUMBER, FUNCTION]
 - p: [18, 17, 19]
   k: $$mdi:backspace-reverse-outline$$
-  l: [DEFAULT]
+  l: [DEFAULT, NUMBER, FUNCTION]
 - p: [12, 13, 14]
   k: '&CSA'
   l: [DEFAULT]
@@ -401,3 +401,9 @@ combos:
 - p: [24, 25, 26]
   k: $$mdi:mouse-right-click-outline$$
   l: [DEFAULT]
+- p: [16, 28]
+  k: (
+  l: [NUMBER]
+- p: [32, 20]
+  k: )
+  l: [NUMBER]
