@@ -42,7 +42,7 @@ layers:
   - MOUSE
   - {t: '$$mdi:apple-keyboard-caps$$', h: MIRROR}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - MUTE
+  - $$mdi:volume-off$$
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
   - $$mdi:mouse-right-click-outline$$
