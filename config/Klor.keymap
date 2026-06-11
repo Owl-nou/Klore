@@ -438,6 +438,18 @@
             key-positions = <38 37>;
             layers = <0 2 3 4>;
         };
+
+        Chuot_trai {
+            bindings = <&mkp LCLK>;
+            key-positions = <1 2 3>;
+            layers = <0>;
+        };
+
+        Chuot_phai {
+            bindings = <&mkp RCLK>;
+            key-positions = <24 25 26>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -474,7 +486,7 @@
         };
 
         FUNCTION {
-            display-name = "NUMBER";
+            display-name = "FUNCTION";
             bindings = <
                                  &kp F1          &kp F2            &kp F3                  &kp F4                &kp F5     &kp F6     &kp F7              &kp F8          &kp F9      &kp F12
 &mt ESCAPE TAB                   &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW            &kp RIGHT_ARROW       &none      &kp PLUS   &kp F4              &kp F5          &kp F6      &kp F11       &kp LEFT_GUI
