@@ -105,6 +105,17 @@
             #sensor-binding-cells = <0>;
             bindings = <&mmv MOVE_RIGHT>, <&mmv MOVE_LEFT>;
         };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NEW_BEHAVIOR";
+            bindings = <&mt>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            hold-trigger-key-positions = <36>;
+            tapping-term-ms = <200>;
+        };
     };
 
     macros {
@@ -113,6 +124,13 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_GUI &kp PRINTSCREEN>;
             label = "FULL_PRT_SCR";
+        };
+
+        Triple_left_click: Triple_left_click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK &mkp LCLK &mkp LCLK>;
+            label = "TRIPLE_LEFT_CLICK";
         };
     };
 
@@ -315,11 +333,11 @@
         MOUSE {
             display-name = "MOUSE";
             bindings = <
-       &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-              &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+       &none           &none           &none         &none               &none  &none  &none  &none  &none  &none
+&none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT     &none  &none  &none  &none  &none  &none  &none
+&none  &none           &none           &none         &Triple_left_click  &none  &none  &none  &none  &none  &none  &none
+                       &none           &none         &none               &mo 1  &mo 3  &none  &none  &none
+&none  &none           &none           &none         &none                             &none  &none  &none  &none  &none
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
