@@ -491,7 +491,7 @@
         MOUSE {
             display-name = "MOUSE";
             bindings = <
-                                 &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &none   &none                 &Thu_nho_ung_dung  &CW               &kp LA(F4)       &kp C_SLEEP_MODE
+                                 &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &none   &none                 &Thu_nho_tab       &CW               &kp LA(F4)       &kp C_SLEEP_MODE
 &mt ESCAPE TAB                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT     &none   &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &kp C_SLEEP           &kp LEFT_GUI
 &mt LG(PRINTSCREEN) PRINTSCREEN  &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &trans  &kp C_BRIGHTNESS_DEC  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &kp C_AL_SCREENSAVER  &kp LEFT_ALT
                                                  &none           &mkp LCLK       &mkp RCLK           &mo 1   &mo 3                 &none              &none             &none
