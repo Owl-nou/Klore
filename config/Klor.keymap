@@ -129,19 +129,6 @@
             label = "XEN_MAN_HINH";
         };
 
-        Thu_nho_ung_dung: Thu_nho_ung_dung {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_ALT &kp SPACE>,
-                <&macro_tap>,
-                <&kp T>,
-                <&macro_release>;
-
-            label = "THU_NHO_UNG_DUNG";
-        };
-
         CSA: CSA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -176,6 +163,18 @@
                 <&macro_release>;
 
             label = "CW";
+        };
+
+        Thu_nho_tab: Thu_nho_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT &kp SPACE>,
+                <&macro_release>,
+                <&kp T>;
+
+            label = "THU_NHO_TAB";
         };
     };
 
