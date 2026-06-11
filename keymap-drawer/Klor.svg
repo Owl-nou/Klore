@@ -726,6 +726,30 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="194" y="90" width="28" height="26" class="combo"/>
 <text x="208" y="103" class="combo tap">&amp;CSA</text>
 </g>
+<g class="combo combopos-34">
+<rect rx="6" ry="6" x="81" y="171" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="86" y="175" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+</g>
+<g class="combo combopos-35">
+<rect rx="6" ry="6" x="137" y="130" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="142" y="134" height="18" width="18.0" class="combo tap glyph mdi:arrow-down-bold"/>
+</g>
+<g class="combo combopos-36">
+<rect rx="6" ry="6" x="195" y="99" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="200" y="103" height="18" width="18.0" class="combo tap glyph mdi:arrow-up-bold"/>
+</g>
+<g class="combo combopos-37">
+<rect rx="6" ry="6" x="251" y="126" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="256" y="130" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
+</g>
+<g class="combo combopos-38">
+<rect rx="6" ry="6" x="307" y="135" width="28" height="26" class="combo"/>
+<text x="321" y="148" class="combo tap"><tspan style="font-size: 60%">&amp;Mui_ten_…</tspan></text>
+</g>
+<g class="combo combopos-39">
+<rect rx="6" ry="6" x="628" y="135" width="28" height="26" class="combo"/>
+<text x="642" y="148" class="combo tap"><tspan style="font-size: 60%">&amp;Mui_ten_…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 453)" class="layer-NUMBER">

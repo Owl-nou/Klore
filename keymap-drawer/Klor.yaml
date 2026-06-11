@@ -474,3 +474,21 @@ combos:
 - p: [12, 13, 14]
   k: '&CSA'
   l: [DEFAULT]
+- p: [11, 23]
+  k: $$mdi:arrow-left-bold$$
+  l: [DEFAULT]
+- p: [24, 12]
+  k: $$mdi:arrow-down-bold$$
+  l: [DEFAULT]
+- p: [25, 13]
+  k: $$mdi:arrow-up-bold$$
+  l: [DEFAULT]
+- p: [26, 14]
+  k: $$mdi:arrow-right-bold$$
+  l: [DEFAULT]
+- p: [15, 27]
+  k: '&Mui_ten_thuan'
+  l: [DEFAULT]
+- p: [28, 16]
+  k: '&Mui_ten_nguoc'
+  l: [DEFAULT]
