@@ -135,6 +135,13 @@
             bindings = <&kp LEFT_ALT &kp SPACE &kp T>;
             label = "THU_NHO_UNG_DUNG";
         };
+
+        CSA: CSA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_CONTROL &sk LEFT_SHIFT &sk LEFT_ALT>;
+            label = "CSA";
+        };
     };
 
     combos {
@@ -307,6 +314,42 @@
             key-positions = <14 3>;
             layers = <0>;
         };
+
+        Di_chuot_trai {
+            bindings = <&mmv MOVE_LEFT>;
+            key-positions = <17 6>;
+            layers = <0>;
+        };
+
+        Di_chuot_len {
+            bindings = <&mmv MOVE_UP>;
+            key-positions = <18 7>;
+            layers = <0>;
+        };
+
+        Di_chuot_xuong {
+            bindings = <&mmv MOVE_DOWN>;
+            key-positions = <19 8>;
+            layers = <0>;
+        };
+
+        Di_chuot_phai {
+            bindings = <&mmv MOVE_RIGHT>;
+            key-positions = <20 9>;
+            layers = <0>;
+        };
+
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <18 17 19>;
+            layers = <0>;
+        };
+
+        CSA {
+            bindings = <&CSA>;
+            key-positions = <12 13 14>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -319,7 +362,7 @@
 &mt ESC TAB        &kp A         &kp S          &kp D            &kp F                 &kp G  &kp H  &kp J           &kp K          &kp L       &kp SEMI  &kp LEFT_GUI
 &lt 4 PRINTSCREEN  &kp Z         &kp X          &kp C            &kp V                 &kp B  &kp N  &kp M           &kp COMMA      &kp DOT     &kp FSLH  &kp LEFT_ALT
                                  &kp C_AC_ZOOM  &mt LCTRL SPACE  &mt LEFT_SHIFT ENTER  &mo 1  &mo 3  &lt 4 CAPSLOCK  &kp BACKSPACE  &kp K_MUTE
-&msc SCRL_LEFT     &msc SCRL_UP  &trans         &msc SCRL_DOWN   &msc SCRL_RIGHT                     &kp LEFT        &kp DOWN       &trans      &kp UP    &kp RIGHT
+&msc SCRL_LEFT     &msc SCRL_UP  &mkp RCLK      &msc SCRL_DOWN   &msc SCRL_RIGHT                     &kp LEFT        &kp DOWN       &mkp LCLK   &kp UP    &kp RIGHT
             >;
 
             sensor-bindings =
