@@ -407,3 +407,15 @@ combos:
 - p: [32, 20]
   k: )
   l: [NUMBER]
+- p: [17, 29]
+  k: $$mdi:pan-left$$
+  l: [DEFAULT, NUMBER, FUNCTION]
+- p: [30, 18]
+  k: $$mdi:pan-up$$
+  l: [DEFAULT, NUMBER, FUNCTION]
+- p: [19, 31]
+  k: $$mdi:pan-down$$
+  l: [DEFAULT, NUMBER, FUNCTION]
+- p: [32, 20]
+  k: $$mdi:pan-up$$
+  l: [DEFAULT, NUMBER, FUNCTION]
