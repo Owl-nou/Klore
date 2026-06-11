@@ -134,7 +134,7 @@ layers:
   - '&mkp MB5'
   - $$mdi:mouse-scroll-wheel$$
   - '&Triple_left_click'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
