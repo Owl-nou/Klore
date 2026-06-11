@@ -54,6 +54,59 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   NUMBER:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - FUNCTION
+  - +
+  - '4'
+  - '5'
+  - '6'
+  - '*'
+  - $$mdi:apple-keyboard-command$$
+  - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
+  - Ctl+C
+  - Ctl+X
+  - Ctl+V
+  - Ctl+Sft+V
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '-', s: _}
+  - '1'
+  - '2'
+  - '3'
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-option$$
+  - Ctl+0
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: NUMBER, type: held}
+  - MOUSE
+  - {t: '0', h: '='}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:volume-off$$
+  - $$mdi:pan-left$$
+  - $$mdi:pan-up$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:pan-down$$
+  - $$mdi:pan-right$$
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-down-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+$$mdi:arrow-up-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
+  FUNCTION:
   - F1
   - F2
   - F3
@@ -341,4 +394,10 @@ combos:
   l: [DEFAULT]
 - p: [38, 37]
   k: {t: DEFAULT, h: toggle}
-  l: [DEFAULT, NUMBER, MOUSE, MIRROR]
+  l: [DEFAULT, FUNCTION, MOUSE, MIRROR]
+- p: [1, 2, 3]
+  k: $$mdi:mouse-left-click-outline$$
+  l: [DEFAULT]
+- p: [24, 25, 26]
+  k: $$mdi:mouse-right-click-outline$$
+  l: [DEFAULT]
