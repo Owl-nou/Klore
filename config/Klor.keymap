@@ -400,6 +400,24 @@
             key-positions = <28 16>;
             layers = <0>;
         };
+
+        Khoa_Number {
+            bindings = <&to 1>;
+            key-positions = <37 20>;
+            layers = <0>;
+        };
+
+        Khoa_Mouse {
+            bindings = <&to 3>;
+            key-positions = <20 38>;
+            layers = <0>;
+        };
+
+        Default {
+            bindings = <&to 0>;
+            key-positions = <38 37>;
+            layers = <0 2 3 4>;
+        };
     };
 
     keymap {
@@ -423,11 +441,11 @@
         NUMBER {
             display-name = "NUMBER";
             bindings = <
-                                 &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3            &kp NUMBER_4          &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8        &kp NUMBER_9  &kp NUMBER_0
-&mt ESCAPE TAB                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW            &kp RIGHT_ARROW       &mo 2         &kp PLUS      &kp NUMBER_4   &kp NUMBER_5        &kp NUMBER_6  &kp ASTERISK  &kp LEFT_GUI
-&mt LG(PRINTSCREEN) PRINTSCREEN  &kp LC(C)       &kp LC(X)       &kp LC(V)               &kp LC(LS(V))         &kp LG(V)     &kp MINUS     &kp NUMBER_1   &kp NUMBER_2        &kp NUMBER_3  &kp SLASH     &kp LEFT_ALT
-                                                 &kp C_AC_ZOOM   &mt LEFT_CONTROL SPACE  &mt LEFT_SHIFT ENTER  &mo 1         &mo 3         &kp BACKSPACE  &mt EQUAL NUMBER_0  &kp K_MUTE
-&msc SCRL_LEFT                   &msc SCRL_UP    &none           &msc SCRL_DOWN          &msc SCRL_RIGHT                                   &none          &none               &none         &none         &none
+                                 &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3            &kp NUMBER_4          &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7        &kp NUMBER_8        &kp NUMBER_9  &kp NUMBER_0
+&mt ESCAPE TAB                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW            &kp RIGHT_ARROW       &mo 2         &kp PLUS      &kp NUMBER_4        &kp NUMBER_5        &kp NUMBER_6  &kp ASTERISK      &kp LEFT_GUI
+&mt LG(PRINTSCREEN) PRINTSCREEN  &kp LC(C)       &kp LC(X)       &kp LC(V)               &kp LC(LS(V))         &kp LG(V)     &kp MINUS     &kp NUMBER_1        &kp NUMBER_2        &kp NUMBER_3  &kp SLASH         &kp LEFT_ALT
+                                                 &kp C_AC_ZOOM   &mt LEFT_CONTROL SPACE  &mt LEFT_SHIFT ENTER  &mo 1         &mo 3         &kp BACKSPACE       &mt EQUAL NUMBER_0  &kp K_MUTE
+&msc SCRL_LEFT                   &msc SCRL_UP    &none           &msc SCRL_DOWN          &msc SCRL_RIGHT                                   &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &none         &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)
             >;
 
             sensor-bindings =
@@ -453,7 +471,7 @@
         MOUSE {
             display-name = "MOUSE";
             bindings = <
-                &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &none   &none  &Thu_nho_ung_dung  &none             &none            &none
+                &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &none   &none  &Thu_nho_ung_dung  &none             &kp C_AC_CLOSE   &none
 &to 0           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT     &none   &none  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &none         &none
 &none           &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &trans  &none  &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT       &none         &none
                                 &none           &mkp LCLK       &mkp RCLK           &mo 1   &mo 3  &none              &none             &none
@@ -470,42 +488,6 @@
 &none           &kp SLASH      &kp PERIOD  &kp COMMA                 &kp M          &kp N  &kp B  &kp V  &kp C  &kp X  &kp Z  &kp BACKSPACE
                                &none       &mt RIGHT_SHIFT CAPSLOCK  &kp BACKSPACE  &none  &none  &none  &none  &none
 &none           &none          &none       &none                     &none                        &none  &none  &none  &none  &none
-            >;
-
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
-        };
-
-        mouse {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
-        };
-
-        layer_5 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
-        };
-
-        layer_6 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
