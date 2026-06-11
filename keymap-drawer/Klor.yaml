@@ -45,12 +45,12 @@ layers:
   - MUTE
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   NUMBER:
@@ -455,4 +455,22 @@ combos:
   l: [DEFAULT]
 - p: [14, 3]
   k: END
+  l: [DEFAULT]
+- p: [17, 6]
+  k: {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  l: [DEFAULT]
+- p: [18, 7]
+  k: {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  l: [DEFAULT]
+- p: [19, 8]
+  k: {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  l: [DEFAULT]
+- p: [20, 9]
+  k: {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  l: [DEFAULT]
+- p: [18, 17, 19]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [DEFAULT]
+- p: [12, 13, 14]
+  k: '&CSA'
   l: [DEFAULT]
