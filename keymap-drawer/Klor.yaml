@@ -166,7 +166,7 @@ layers:
   - '&Triple_left_click'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&Thu_nho_tab'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&CW'
   - Alt+F4
   - SLEEP MODE
