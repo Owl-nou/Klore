@@ -36,12 +36,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - AC ZOOM
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - NUMBER
   - MOUSE
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-caps$$', h: MIRROR}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - MUTE
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
@@ -89,8 +89,8 @@ layers:
   - F10
   - $$mdi:apple-keyboard-option$$
   - AC ZOOM
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUMBER, type: held}
   - MOUSE
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -107,10 +107,10 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   MOUSE:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - $$mdi:mouse-scroll-wheel$$
+  - '&Triple_left_click'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -130,9 +130,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - $$mdi:mouse-scroll-wheel$$
   - '&Triple_left_click'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -142,8 +142,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: NUMBER, type: held alternate}
   - {t: MOUSE, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -199,8 +199,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
