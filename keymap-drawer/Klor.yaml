@@ -107,21 +107,21 @@ layers:
   - Gui+$$mdi:arrow-up-bold$$
   - Gui+$$mdi:arrow-right-bold$$
   FUNCTION:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:bluetooth-off$$
+  - BT CLR ALL
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F6
   - F7
   - F8
   - F9
   - F12
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - +
   - F4
@@ -130,11 +130,11 @@ layers:
   - F11
   - $$mdi:apple-keyboard-command$$
   - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
-  - Ctl+C
-  - Ctl+X
-  - Ctl+V
-  - Ctl+Sft+V
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', s: _}
   - F1
   - F2
