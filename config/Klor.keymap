@@ -142,6 +142,20 @@
             bindings = <&sk LEFT_CONTROL &sk LEFT_SHIFT &sk LEFT_ALT>;
             label = "CSA";
         };
+
+        Mui_ten_thuan: Mui_ten_thuan {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp MINUS &kp GREATER_THAN &kp SPACE>;
+            label = "MUI_TEN_THUAN";
+        };
+
+        Mui_ten_nguoc: Mui_ten_nguoc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LESS_THAN &kp MINUS &kp MINUS &kp SPACE>;
+            label = "MUI_TEN_NGUOC";
+        };
     };
 
     combos {
@@ -348,6 +362,42 @@
         CSA {
             bindings = <&CSA>;
             key-positions = <12 13 14>;
+            layers = <0>;
+        };
+
+        Left_arrow {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <11 23>;
+            layers = <0>;
+        };
+
+        Down_arrow {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <24 12>;
+            layers = <0>;
+        };
+
+        Up_arrow {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <25 13>;
+            layers = <0>;
+        };
+
+        Right_arrow {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <26 14>;
+            layers = <0>;
+        };
+
+        Mui_ten_thuan {
+            bindings = <&Mui_ten_thuan>;
+            key-positions = <15 27>;
+            layers = <0>;
+        };
+
+        Mui_ten_nguoc {
+            bindings = <&Mui_ten_nguoc>;
+            key-positions = <28 16>;
             layers = <0>;
         };
     };
