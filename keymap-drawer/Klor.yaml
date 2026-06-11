@@ -88,14 +88,14 @@ layers:
   - F3
   - F10
   - $$mdi:apple-keyboard-option$$
-  - AC ZOOM
+  - Ctl+0
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: NUMBER, type: held}
   - MOUSE
   - {t: '0', h: '='}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - MUTE
+  - $$mdi:volume-off$$
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - $$mdi:brightness-5$$
   - $$mdi:volume-low$$
-  - MUTE
+  - $$mdi:volume-off$$
   - $$mdi:volume-high$$
   - SLEEP
   - $$mdi:apple-keyboard-command$$
@@ -138,8 +138,8 @@ layers:
   - $$mdi:brightness-7$$
   - PREVIOUS
   - PLAY PAUSE
-  - NEXT
-  - SCREENSAVER
+  - $$mdi:skip-next$$
+  - AL SCREENSAVER
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
