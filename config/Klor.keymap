@@ -451,7 +451,7 @@
                                  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3            &kp NUMBER_4          &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7        &kp NUMBER_8        &kp NUMBER_9  &kp NUMBER_0
 &mt ESCAPE TAB                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW            &kp RIGHT_ARROW       &mo 2         &kp PLUS      &kp NUMBER_4        &kp NUMBER_5        &kp NUMBER_6  &kp ASTERISK      &kp LEFT_GUI
 &mt LG(PRINTSCREEN) PRINTSCREEN  &kp LC(C)       &kp LC(X)       &kp LC(V)               &kp LC(LS(V))         &kp LG(V)     &kp MINUS     &kp NUMBER_1        &kp NUMBER_2        &kp NUMBER_3  &kp SLASH         &kp LEFT_ALT
-                                                 &kp C_AC_ZOOM   &mt LEFT_CONTROL SPACE  &mt LEFT_SHIFT ENTER  &mo 1         &mo 3         &kp BACKSPACE       &mt EQUAL NUMBER_0  &kp K_MUTE
+                                                 &kp C_AC_ZOOM   &mt LEFT_CONTROL SPACE  &mt LEFT_SHIFT ENTER  &mo 1         &mo 3         &mt EQUAL NUMBER_0  &kp BACKSPACE       &kp K_MUTE
 &msc SCRL_LEFT                   &msc SCRL_UP    &none           &msc SCRL_DOWN          &msc SCRL_RIGHT                                   &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &none         &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)
             >;
 
@@ -463,11 +463,11 @@
         FUNCTION {
             display-name = "NUMBER";
             bindings = <
-                                 &kp F1          &kp F2          &kp F3                  &kp F4                &kp F5     &kp F6     &kp F7          &kp F8              &kp F9      &kp F12
-&mt ESCAPE TAB                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW            &kp RIGHT_ARROW       &none      &kp PLUS   &kp F4          &kp F5              &kp F6      &kp F11       &kp LEFT_GUI
-&mt LG(PRINTSCREEN) PRINTSCREEN  &kp LC(C)       &kp LC(X)       &kp LC(V)               &kp LC(LS(V))         &kp LG(V)  &kp MINUS  &kp F1          &kp F2              &kp F3      &kp F10       &kp LEFT_ALT
-                                                 &kp C_AC_ZOOM   &mt LEFT_CONTROL SPACE  &mt LEFT_SHIFT ENTER  &mo 1      &mo 3      &kp BACKSPACE   &mt EQUAL NUMBER_0  &kp K_MUTE
-&msc SCRL_LEFT                   &msc SCRL_UP    &none           &msc SCRL_DOWN          &msc SCRL_RIGHT                             &kp LEFT_ARROW  &kp DOWN_ARROW      &none       &kp UP_ARROW  &kp RIGHT_ARROW
+                                 &kp F1          &kp F2          &kp F3                  &kp F4                &kp F5     &kp F6     &kp F7              &kp F8          &kp F9      &kp F12
+&mt ESCAPE TAB                   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW            &kp RIGHT_ARROW       &none      &kp PLUS   &kp F4              &kp F5          &kp F6      &kp F11       &kp LEFT_GUI
+&mt LG(PRINTSCREEN) PRINTSCREEN  &kp LC(C)       &kp LC(X)       &kp LC(V)               &kp LC(LS(V))         &kp LG(V)  &kp MINUS  &kp F1              &kp F2          &kp F3      &kp F10       &kp LEFT_ALT
+                                                 &kp C_AC_ZOOM   &mt LEFT_CONTROL SPACE  &mt LEFT_SHIFT ENTER  &mo 1      &mo 3      &mt EQUAL NUMBER_0  &kp BACKSPACE   &kp K_MUTE
+&msc SCRL_LEFT                   &msc SCRL_UP    &none           &msc SCRL_DOWN          &msc SCRL_RIGHT                             &kp LEFT_ARROW      &kp DOWN_ARROW  &none       &kp UP_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings =
