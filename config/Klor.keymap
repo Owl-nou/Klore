@@ -478,11 +478,11 @@
         MOUSE {
             display-name = "MOUSE";
             bindings = <
-                &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &none   &none                 &Thu_nho_ung_dung  &CW               &kp LA(F4)       &kp C_SLEEP_MODE
-&to 0           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT     &none   &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &kp K_SLEEP        &none
-&none           &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &trans  &kp C_BRIGHTNESS_DEC  &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT       &kp K_SCREENSAVER  &none
-                                &none           &mkp LCLK       &mkp RCLK           &mo 1   &mo 3                 &none              &none             &none
-&kp LEFT_ARROW  &kp UP_ARROW    &none           &kp DOWN_ARROW  &kp RIGHT_ARROW                                   &msc SCRL_LEFT     &msc SCRL_DOWN    &none            &msc SCRL_UP       &msc SCRL_RIGHT
+                                 &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &none   &none                 &Thu_nho_ung_dung  &CW               &kp LA(F4)       &kp C_SLEEP_MODE
+&mt ESCAPE TAB                   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT     &none   &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &kp K_SLEEP        &kp LEFT_GUI
+&mt LG(PRINTSCREEN) PRINTSCREEN  &mkp MB4        &mkp MB5        &mkp MCLK       &Triple_left_click  &trans  &kp C_BRIGHTNESS_DEC  &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT       &kp K_SCREENSAVER  &kp LEFT_ALT
+                                                 &none           &mkp LCLK       &mkp RCLK           &mo 1   &mo 3                 &none              &none             &none
+&kp LEFT_ARROW                   &kp UP_ARROW    &none           &kp DOWN_ARROW  &kp RIGHT_ARROW                                   &msc SCRL_LEFT     &msc SCRL_DOWN    &none            &msc SCRL_UP       &msc SCRL_RIGHT
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
