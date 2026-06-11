@@ -133,7 +133,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
+                <&macro_wait_time 2000>,
                 <&sk LEFT_CONTROL &sk LEFT_SHIFT &sk LEFT_ALT>,
                 <&macro_release>;
 
