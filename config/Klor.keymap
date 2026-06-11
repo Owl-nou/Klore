@@ -21,12 +21,12 @@
 
 &msc {
     acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <2000>;       // 300
+    time-to-max-speed-ms = <4000>;       // 300
     delay-ms = <0>;                   // 0
 };
 
 &mmv {
-    time-to-max-speed-ms = <2000>;
+    time-to-max-speed-ms = <3000>;
     acceleration-exponent = <1>;
     trigger-period-ms = <16>;
 };
@@ -352,31 +352,31 @@
         Di_chuot_trai {
             bindings = <&mmv MOVE_LEFT>;
             key-positions = <17 6>;
-            layers = <0>;
+            layers = <0 1 2>;
         };
 
         Di_chuot_len {
             bindings = <&mmv MOVE_UP>;
             key-positions = <18 7>;
-            layers = <0>;
+            layers = <0 1 2>;
         };
 
         Di_chuot_xuong {
             bindings = <&mmv MOVE_DOWN>;
             key-positions = <19 8>;
-            layers = <0>;
+            layers = <0 1 2>;
         };
 
         Di_chuot_phai {
             bindings = <&mmv MOVE_RIGHT>;
             key-positions = <20 9>;
-            layers = <0>;
+            layers = <0 1 2>;
         };
 
         Delete {
             bindings = <&kp DELETE>;
             key-positions = <18 17 19>;
-            layers = <0>;
+            layers = <0 1 2>;
         };
 
         CSA {
@@ -449,6 +449,18 @@
             bindings = <&mkp RCLK>;
             key-positions = <24 25 26>;
             layers = <0>;
+        };
+
+        Mo_ngoac_Number {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <16 28>;
+            layers = <1>;
+        };
+
+        Dong_ngoac_number {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <32 20>;
+            layers = <1>;
         };
     };
 
