@@ -305,6 +305,9 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <8 7>;
             layers = <0>;
+            slow-release;
+            require-prior-idle-ms = <500>;
+            timeout-ms = <20>;
         };
 
         Dau_bang {
