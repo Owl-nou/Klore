@@ -637,7 +637,7 @@
 &msc SCRL_LEFT                   &msc SCRL_UP    &none             &msc SCRL_DOWN          &msc SCRL_RIGHT                                   &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &none         &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)
             >;
 
-            sensor-bindings = <&Scroll_U_D>, <&Scroll_LR>;
+            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
         };
 
         FUNCTION {
