@@ -190,6 +190,7 @@
             bindings = <&kp EXCLAMATION>;
             key-positions = <23 24>;
             layers = <0>;
+            slow-release;
         };
 
         sym2 {
