@@ -384,8 +384,8 @@
             layers = <0 1 2>;
         };
 
-        CSA {
-            bindings = <&CSA>;
+        Enter {
+            bindings = <&kp ENTER>;
             key-positions = <12 13 14>;
             layers = <0>;
         };
@@ -446,13 +446,13 @@
 
         Chuot_trai {
             bindings = <&mkp LCLK>;
-            key-positions = <1 2 3>;
+            key-positions = <26 25 24>;
             layers = <0>;
         };
 
         Chuot_phai {
             bindings = <&mkp RCLK>;
-            key-positions = <24 25 26>;
+            key-positions = <3 2 1>;
             layers = <0>;
         };
 
