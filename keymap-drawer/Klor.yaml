@@ -366,7 +366,7 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
   l: [DEFAULT, NUMBER, FUNCTION]
 - p: [12, 13, 14]
-  k: '&CSA'
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [DEFAULT]
 - p: [11, 23]
   k: $$mdi:arrow-left-bold$$
@@ -395,10 +395,10 @@ combos:
 - p: [38, 37]
   k: {t: DEFAULT, h: toggle}
   l: [DEFAULT, FUNCTION, MOUSE, MIRROR]
-- p: [1, 2, 3]
+- p: [26, 25, 24]
   k: $$mdi:mouse-left-click-outline$$
   l: [DEFAULT]
-- p: [24, 25, 26]
+- p: [3, 2, 1]
   k: $$mdi:mouse-right-click-outline$$
   l: [DEFAULT]
 - p: [16, 28]
