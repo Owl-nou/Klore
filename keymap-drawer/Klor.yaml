@@ -352,34 +352,34 @@ combos:
   l: [DEFAULT]
 - p: [17, 6]
   k: {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  l: [DEFAULT, NUMBER, FUNCTION]
+  l: [DEFAULT, NUMBER, FUNCTION, MIRROR]
 - p: [18, 7]
   k: {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  l: [DEFAULT, NUMBER, FUNCTION]
+  l: [DEFAULT, NUMBER, FUNCTION, MIRROR]
 - p: [19, 8]
   k: {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  l: [DEFAULT, NUMBER, FUNCTION]
+  l: [DEFAULT, NUMBER, FUNCTION, MIRROR]
 - p: [20, 9]
   k: {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  l: [DEFAULT, NUMBER, FUNCTION]
+  l: [DEFAULT, NUMBER, FUNCTION, MIRROR]
 - p: [18, 17, 19]
   k: $$mdi:backspace-reverse-outline$$
-  l: [DEFAULT, NUMBER, FUNCTION]
+  l: [DEFAULT, NUMBER, FUNCTION, MIRROR]
 - p: [12, 13, 14]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [DEFAULT]
+  l: [DEFAULT, MIRROR]
 - p: [11, 23]
   k: $$mdi:arrow-left-bold$$
-  l: [DEFAULT]
+  l: [DEFAULT, MOUSE, MIRROR]
 - p: [24, 12]
   k: $$mdi:arrow-down-bold$$
-  l: [DEFAULT]
+  l: [DEFAULT, MOUSE, MIRROR]
 - p: [25, 13]
   k: $$mdi:arrow-up-bold$$
-  l: [DEFAULT]
+  l: [DEFAULT, MOUSE, MIRROR]
 - p: [26, 14]
   k: $$mdi:arrow-right-bold$$
-  l: [DEFAULT]
+  l: [DEFAULT, MOUSE, MIRROR]
 - p: [15, 27]
   k: '&Mui_ten_thuan'
   l: [DEFAULT]
@@ -397,10 +397,10 @@ combos:
   l: [DEFAULT, FUNCTION, MOUSE, MIRROR]
 - p: [26, 25, 24]
   k: $$mdi:mouse-left-click-outline$$
-  l: [DEFAULT]
+  l: [DEFAULT, NUMBER, FUNCTION, MIRROR]
 - p: [3, 2, 1]
   k: $$mdi:mouse-right-click-outline$$
-  l: [DEFAULT]
+  l: [DEFAULT, NUMBER, FUNCTION, MIRROR]
 - p: [16, 28]
   k: (
   l: [NUMBER]
@@ -409,13 +409,13 @@ combos:
   l: [NUMBER]
 - p: [17, 29]
   k: $$mdi:pan-left$$
-  l: [DEFAULT, NUMBER, FUNCTION]
+  l: [DEFAULT, NUMBER, FUNCTION, MOUSE, MIRROR]
 - p: [30, 18]
   k: $$mdi:pan-up$$
-  l: [DEFAULT, NUMBER, FUNCTION]
+  l: [DEFAULT, NUMBER, FUNCTION, MOUSE, MIRROR]
 - p: [19, 31]
   k: $$mdi:pan-down$$
-  l: [DEFAULT, NUMBER, FUNCTION]
+  l: [DEFAULT, NUMBER, FUNCTION, MOUSE, MIRROR]
 - p: [32, 20]
   k: $$mdi:pan-up$$
-  l: [DEFAULT, NUMBER, FUNCTION]
+  l: [DEFAULT, NUMBER, FUNCTION, MIRROR, MOUSE]
