@@ -414,24 +414,30 @@
             bindings = <&kp PAGE_DOWN>;
             key-positions = <12 1>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Page_up {
             bindings = <&kp PAGE_UP>;
             key-positions = <13 2>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         End {
             bindings = <&kp END>;
             key-positions = <14 3>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Di_chuot_trai {
             bindings = <&mmv MOVE_LEFT>;
             key-positions = <17 6>;
-            layers = <0 1 2>;
+            layers = <0 1 2 4>;
             slow-release;
             timeout-ms = <300>;
         };
@@ -439,55 +445,69 @@
         Di_chuot_len {
             bindings = <&mmv MOVE_UP>;
             key-positions = <18 7>;
-            layers = <0 1 2>;
+            layers = <0 1 2 4>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Di_chuot_xuong {
             bindings = <&mmv MOVE_DOWN>;
             key-positions = <19 8>;
-            layers = <0 1 2>;
+            layers = <0 1 2 4>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Di_chuot_phai {
             bindings = <&mmv MOVE_RIGHT>;
             key-positions = <20 9>;
-            layers = <0 1 2>;
+            layers = <0 1 2 4>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Delete {
             bindings = <&kp DELETE>;
             key-positions = <18 17 19>;
-            layers = <0 1 2>;
+            layers = <0 1 2 4>;
         };
 
         Enter {
             bindings = <&kp ENTER>;
             key-positions = <12 13 14>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         Left_arrow {
             bindings = <&kp LEFT_ARROW>;
             key-positions = <11 23>;
-            layers = <0>;
+            layers = <0 3 4>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Down_arrow {
             bindings = <&kp DOWN_ARROW>;
             key-positions = <24 12>;
-            layers = <0>;
+            layers = <0 3 4>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Up_arrow {
             bindings = <&kp UP_ARROW>;
             key-positions = <25 13>;
-            layers = <0>;
+            layers = <0 3 4>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Right_arrow {
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <26 14>;
-            layers = <0>;
+            layers = <0 3 4>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Mui_ten_thuan {
@@ -506,66 +526,86 @@
             bindings = <&to 1>;
             key-positions = <37 20>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Khoa_Mouse {
             bindings = <&to 3>;
             key-positions = <20 38>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Default {
             bindings = <&to 0>;
             key-positions = <38 37>;
             layers = <0 2 3 4>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Chuot_trai {
             bindings = <&mkp LCLK>;
             key-positions = <26 25 24>;
-            layers = <0>;
+            layers = <0 1 2 4>;
+            timeout-ms = <300>;
         };
 
         Chuot_phai {
             bindings = <&mkp RCLK>;
             key-positions = <3 2 1>;
-            layers = <0>;
+            layers = <0 1 2 4>;
+            timeout-ms = <300>;
         };
 
         Mo_ngoac_Number {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 28>;
             layers = <1>;
+            slow-release;
+            timeout-ms = <200>;
         };
 
         Dong_ngoac_number {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <32 20>;
             layers = <1>;
+            slow-release;
+            timeout-ms = <200>;
         };
 
         Cuon_trai {
             bindings = <&msc SCRL_LEFT>;
             key-positions = <17 29>;
-            layers = <0 1 2>;
+            layers = <0 1 2 3 4>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Cuon_len {
             bindings = <&msc SCRL_UP>;
             key-positions = <30 18>;
-            layers = <0 1 2>;
+            layers = <0 1 2 3 4>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Cuon_xuong {
             bindings = <&msc SCRL_DOWN>;
             key-positions = <19 31>;
-            layers = <0 1 2>;
+            layers = <0 1 2 3 4>;
+            slow-release;
+            timeout-ms = <300>;
         };
 
         Cuon_phai {
             bindings = <&msc SCRL_UP>;
             key-positions = <32 20>;
-            layers = <0 1 2>;
+            layers = <0 1 2 4 3>;
+            slow-release;
+            timeout-ms = <300>;
         };
     };
 
