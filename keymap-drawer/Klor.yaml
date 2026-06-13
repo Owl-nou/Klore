@@ -36,12 +36,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - {t: Ctl+0, s: Ctl+)}
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
   - NUMBER
   - MOUSE
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
@@ -89,12 +89,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - Ctl+0
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
   - {t: NUMBER, type: held}
   - MOUSE
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '0', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
@@ -142,12 +142,12 @@ layers:
   - F10
   - $$mdi:apple-keyboard-option$$
   - Ctl+0
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
   - {t: NUMBER, type: held alternate}
   - MOUSE
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '0', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
@@ -195,12 +195,12 @@ layers:
   - AL SCREENSAVER
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: NUMBER, type: held alternate}
   - {t: MOUSE, type: held}
-  - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
