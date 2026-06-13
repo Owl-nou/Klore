@@ -22,8 +22,8 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
+  - {t: PRINTSCREEN, h: FUNCTION}
   - $$mdi:apple-keyboard-command$$
-  - {t: PRINTSCREEN, h: MIRROR}
   - Z
   - X
   - C
@@ -36,12 +36,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - {t: Ctl+0, s: Ctl+)}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-space$$
   - NUMBER
   - MOUSE
-  - {t: '$$mdi:apple-keyboard-caps$$', h: MIRROR}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
@@ -75,8 +75,8 @@ layers:
   - '5'
   - '6'
   - '*'
-  - $$mdi:apple-keyboard-command$$
   - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
+  - $$mdi:apple-keyboard-command$$
   - Ctl+C
   - Ctl+X
   - Ctl+V
@@ -89,12 +89,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - Ctl+0
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-space$$
   - {t: NUMBER, type: held}
   - MOUSE
-  - {t: '0', h: '='}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '0', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
@@ -122,14 +122,14 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - +
   - F4
   - F5
   - F6
   - F11
+  - {t: PRINTSCREEN, h: Gui+PRINTSCREEN, type: held}
   - $$mdi:apple-keyboard-command$$
-  - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
   - {t: BT DISC, h: '2'}
@@ -142,12 +142,12 @@ layers:
   - F10
   - $$mdi:apple-keyboard-option$$
   - Ctl+0
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: NUMBER, type: held}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-space$$
+  - {t: NUMBER, type: held alternate}
   - MOUSE
-  - {t: '0', h: '='}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '0', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
@@ -181,8 +181,8 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:volume-high$$
   - SLEEP
+  - {t: PRINTSCREEN, h: Gui+PRINTSCREEN, type: held alternate}
   - $$mdi:apple-keyboard-command$$
-  - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
   - '&mkp MB4'
   - '&mkp MB5'
   - $$mdi:mouse-scroll-wheel$$
@@ -195,12 +195,12 @@ layers:
   - AL SCREENSAVER
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-left-click-outline$$
   - {t: NUMBER, type: held alternate}
   - {t: MOUSE, type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
@@ -235,7 +235,7 @@ layers:
   - S
   - A
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - .
   - {t: ',', s: <}
@@ -252,7 +252,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -419,3 +419,9 @@ combos:
 - p: [32, 20]
   k: $$mdi:pan-up$$
   l: [DEFAULT, NUMBER, FUNCTION, MIRROR, MOUSE]
+- p: [29, 30, 31]
+  k: {t: '=', h: '$$mdi:keyboard-return$$', s: +}
+  l: [NUMBER, FUNCTION]
+- p: [20, 21]
+  k: {t: FUNCTION, h: toggle}
+  l: [DEFAULT]
