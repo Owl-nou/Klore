@@ -93,7 +93,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: NUMBER, type: held}
   - MOUSE
-  - {t: '0', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '0', h: ','}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
   - $$mdi:pan-left$$
