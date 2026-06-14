@@ -23,7 +23,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: PRINTSCREEN, h: FUNCTION}
-  - $$mdi:apple-keyboard-command$$
+  - {t: NUMBER, h: toggle}
   - Z
   - X
   - C
@@ -34,13 +34,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: MOUSE, h: toggle}
   - {t: Ctl+0, s: Ctl+)}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-shift$$
-  - NUMBER
-  - MOUSE
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
   - $$mdi:pan-left$$
@@ -76,7 +76,7 @@ layers:
   - '6'
   - '*'
   - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
-  - $$mdi:apple-keyboard-command$$
+  - {t: NUMBER, h: toggle}
   - Ctl+C
   - Ctl+X
   - Ctl+V
@@ -87,12 +87,12 @@ layers:
   - '2'
   - '3'
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: MOUSE, h: toggle}
   - Ctl+0
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: NUMBER, type: held}
-  - MOUSE
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '0', h: ','}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
@@ -129,7 +129,7 @@ layers:
   - F6
   - F11
   - {t: PRINTSCREEN, h: Gui+PRINTSCREEN, type: held}
-  - $$mdi:apple-keyboard-command$$
+  - {t: NUMBER, h: toggle}
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
   - {t: BT DISC, h: '2'}
@@ -140,13 +140,13 @@ layers:
   - F2
   - F3
   - F10
-  - $$mdi:apple-keyboard-option$$
+  - {t: MOUSE, h: toggle}
   - Ctl+0
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: NUMBER, type: held alternate}
-  - MOUSE
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
   - $$mdi:pan-left$$
@@ -175,14 +175,14 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:brightness-5$$
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
   - $$mdi:volume-high$$
   - SLEEP
-  - {t: PRINTSCREEN, h: Gui+PRINTSCREEN, type: held alternate}
-  - $$mdi:apple-keyboard-command$$
+  - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
+  - {t: NUMBER, h: toggle}
   - '&mkp MB4'
   - '&mkp MB5'
   - $$mdi:mouse-scroll-wheel$$
@@ -193,12 +193,12 @@ layers:
   - PLAY PAUSE
   - $$mdi:skip-next$$
   - AL SCREENSAVER
-  - $$mdi:apple-keyboard-option$$
+  - {t: MOUSE, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: NUMBER, type: held alternate}
-  - {t: MOUSE, type: held}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -388,11 +388,9 @@ combos:
   l: [DEFAULT]
 - p: [37, 20]
   k: {t: NUMBER, h: toggle}
-  l: [DEFAULT]
 - p: [20, 38]
   k: {t: MOUSE, h: toggle}
-  l: [DEFAULT]
-- p: [38, 37]
+- p: [22, 33]
   k: {t: DEFAULT, h: toggle}
   l: [DEFAULT, FUNCTION, MOUSE, MIRROR]
 - p: [26, 25, 24]
