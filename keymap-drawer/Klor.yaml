@@ -45,7 +45,7 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: DEFAULT, h: toggle}
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
   - $$mdi:arrow-left-bold$$
