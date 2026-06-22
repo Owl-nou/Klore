@@ -23,7 +23,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: PRINTSCREEN, h: FUNCTION}
-  - {t: NUMBER, h: toggle}
+  - NUMBER
   - Z
   - X
   - C
@@ -34,7 +34,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: MOUSE, h: toggle}
+  - MOUSE
   - {t: Ctl+0, s: Ctl+)}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-shift$$
@@ -76,7 +76,7 @@ layers:
   - '6'
   - '*'
   - {t: PRINTSCREEN, h: Gui+PRINTSCREEN}
-  - {t: NUMBER, h: toggle}
+  - {t: NUMBER, h: toggle, type: held}
   - Ctl+C
   - Ctl+X
   - Ctl+V
@@ -129,7 +129,7 @@ layers:
   - F6
   - F11
   - {t: PRINTSCREEN, h: Gui+PRINTSCREEN, type: held}
-  - {t: NUMBER, h: toggle}
+  - {t: NUMBER, h: toggle, type: held alternate}
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
   - {t: BT DISC, h: '2'}
@@ -193,7 +193,7 @@ layers:
   - PLAY PAUSE
   - $$mdi:skip-next$$
   - AL SCREENSAVER
-  - {t: MOUSE, h: toggle}
+  - {t: MOUSE, h: toggle, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
