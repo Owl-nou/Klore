@@ -633,7 +633,7 @@
 &mt ESC TAB     &kp A         &kp S       &kp D                   &kp F            &kp G         &kp H         &kp J                    &kp K          &kp L       &kp SEMI  &lt 2 PRINTSCREEN
 &tog 1          &kp Z         &kp X       &kp C                   &kp V            &kp B         &kp N         &kp M                    &kp COMMA      &kp DOT     &kp FSLH  &tog 3
                               &kp LC(N0)  &mt LEFT_CONTROL SPACE  &kp LEFT_SHIFT   &kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_SHIFT CAPSLOCK  &kp BACKSPACE  &kp C_MUTE
-&msc SCRL_LEFT  &msc SCRL_UP  &mkp RCLK   &msc SCRL_DOWN          &msc SCRL_RIGHT                              &kp LEFT                 &kp DOWN       &mkp LCLK   &kp UP    &kp RIGHT
+&msc SCRL_LEFT  &msc SCRL_UP  &to 0       &msc SCRL_DOWN          &msc SCRL_RIGHT                              &kp LEFT                 &kp DOWN       &mkp LCLK   &kp UP    &kp RIGHT
             >;
 
             sensor-bindings =
