@@ -36,8 +36,8 @@ layers:
   - {t: /, s: '?'}
   - MOUSE
   - {t: Ctl+0, s: Ctl+)}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
