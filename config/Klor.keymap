@@ -524,14 +524,14 @@
 
         Khoa_Number {
             bindings = <&to 1>;
-            key-positions = <37 20>;
+            key-positions = <20 22>;
             slow-release;
             timeout-ms = <300>;
         };
 
         Khoa_Mouse {
             bindings = <&to 3>;
-            key-positions = <20 38>;
+            key-positions = <20 33>;
             slow-release;
             timeout-ms = <300>;
         };
