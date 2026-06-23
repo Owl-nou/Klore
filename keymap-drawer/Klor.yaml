@@ -386,9 +386,9 @@ combos:
 - p: [28, 16]
   k: '&Mui_ten_nguoc'
   l: [DEFAULT]
-- p: [37, 20]
+- p: [20, 22]
   k: {t: NUMBER, h: toggle}
-- p: [20, 38]
+- p: [20, 33]
   k: {t: MOUSE, h: toggle}
 - p: [22, 33]
   k: {t: DEFAULT, h: toggle}
