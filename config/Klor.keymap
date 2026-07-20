@@ -644,11 +644,11 @@
         NUMBER {
             display-name = "NUMBER";
             bindings = <
-                &kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3            &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7        &kp NUMBER_8        &kp NUMBER_9  &kp NUMBER_0
-&mt ESCAPE TAB  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW            &kp RIGHT_ARROW  &mo 2         &kp PLUS      &kp NUMBER_4        &kp NUMBER_5        &kp NUMBER_6  &kp ASTERISK      &mt LG(PRINTSCREEN) PRINTSCREEN
-&tog 1          &kp LC(C)       &kp LC(X)         &kp LC(V)               &kp LC(LS(V))    &kp LG(V)     &kp MINUS     &kp NUMBER_1        &kp NUMBER_2        &kp NUMBER_3  &kp SLASH         &tog 3
-                                &kp LC(NUMBER_0)  &mt LEFT_CONTROL SPACE  &kp LEFT_SHIFT   &kp LEFT_GUI  &kp LEFT_ALT  &mt COMMA NUMBER_0  &kp BACKSPACE       &kp C_MUTE
-&msc SCRL_LEFT  &msc SCRL_UP    &none             &msc SCRL_DOWN          &msc SCRL_RIGHT                              &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &none         &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)
+                &kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3            &kp NUMBER_4      &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7        &kp NUMBER_8        &kp NUMBER_9  &kp NUMBER_0
+&mt ESCAPE TAB  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW            &kp RIGHT_ARROW   &mo 2         &kp PLUS      &kp NUMBER_4        &kp NUMBER_5        &kp NUMBER_6  &kp ASTERISK      &mt LG(PRINTSCREEN) PRINTSCREEN
+&tog 1          &kp LC(C)       &kp LC(X)         &kp LC(V)               &kp LC(LS(V))     &kp LG(V)     &kp MINUS     &kp NUMBER_1        &kp NUMBER_2        &kp NUMBER_3  &kp SLASH         &tog 3
+                                &kp LC(NUMBER_0)  &mt LEFT_CONTROL SPACE  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &mt COMMA NUMBER_0  &kp BACKSPACE       &kp C_MUTE
+&msc SCRL_LEFT  &msc SCRL_UP    &none             &msc SCRL_DOWN          &msc SCRL_RIGHT                               &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &none         &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
@@ -657,11 +657,11 @@
         FUNCTION {
             display-name = "FUNCTION";
             bindings = <
-                &bt BT_PRV     &bt BT_NXT        &bt BT_CLR              &bt BT_CLR_ALL   &none         &kp F6        &kp F7                   &kp F8          &kp F9      &kp F12
-&mt ESCAPE TAB  &bt BT_SEL 0   &bt BT_SEL 1      &bt BT_SEL 2            &bt BT_SEL 3     &none         &kp PLUS      &kp F4                   &kp F5          &kp F6      &kp F11       &mt LG(PRINTSCREEN) PRINTSCREEN
-&tog 1          &bt BT_DISC 0  &bt BT_DISC 1     &bt BT_DISC 2           &bt BT_DISC 3    &none         &kp MINUS     &kp F1                   &kp F2          &kp F3      &kp F10       &tog 3
-                               &kp LC(NUMBER_0)  &mt LEFT_CONTROL SPACE  &kp LEFT_SHIFT   &kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_SHIFT CAPSLOCK  &kp BACKSPACE   &kp C_MUTE
-&msc SCRL_LEFT  &msc SCRL_UP   &none             &msc SCRL_DOWN          &msc SCRL_RIGHT                              &kp LEFT_ARROW           &kp DOWN_ARROW  &none       &kp UP_ARROW  &kp RIGHT_ARROW
+                &bt BT_PRV     &bt BT_NXT        &bt BT_CLR              &bt BT_CLR_ALL    &none         &kp F6        &kp F7                   &kp F8          &kp F9      &kp F12
+&mt ESCAPE TAB  &bt BT_SEL 0   &bt BT_SEL 1      &bt BT_SEL 2            &bt BT_SEL 3      &none         &kp PLUS      &kp F4                   &kp F5          &kp F6      &kp F11       &mt LG(PRINTSCREEN) PRINTSCREEN
+&tog 1          &bt BT_DISC 0  &bt BT_DISC 1     &bt BT_DISC 2           &bt BT_DISC 3     &none         &kp MINUS     &kp F1                   &kp F2          &kp F3      &kp F10       &tog 3
+                               &kp LC(NUMBER_0)  &mt LEFT_CONTROL SPACE  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_SHIFT CAPSLOCK  &kp BACKSPACE   &kp C_MUTE
+&msc SCRL_LEFT  &msc SCRL_UP   &none             &msc SCRL_DOWN          &msc SCRL_RIGHT                               &kp LEFT_ARROW           &kp DOWN_ARROW  &none       &kp UP_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings =
