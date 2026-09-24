@@ -254,7 +254,7 @@
             key-positions = <31 31 32 31>;
             layers = <0>;
             slow-release;
-            timeout-ms = <20>;
+            timeout-ms = <100>;
             require-prior-idle-ms = <500>;
         };
 
